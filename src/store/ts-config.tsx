@@ -9,7 +9,7 @@ type TodoContextType = {
 export const TodoContext = createContext<TodoContextType>({
   item: [],
   addTodo: () => {},
-  removeTodo: (id: string) => {},
+  removeTodo: () => {},
 });
 
 export const TodoContextProvider = ({ children }: any) => {
